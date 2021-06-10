@@ -52,6 +52,7 @@ I've also found those features to be missing:
 * replacing single characters with `r`
 * repeat operation command `.`
 * marks (setting and navigating)
+* macro support `q`
 
 Of course there's probably more that I've missed through my limited knowledge of advanced Vim features.
 
