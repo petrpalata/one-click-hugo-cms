@@ -5,17 +5,19 @@
 {{ partial "short-text" (dict "heading" "About Me" "text" "Hey, I'm Petr, an iOS developer with 7+ years of commercial experience. Welcome to my page! If you enjoyed my content, you can watch or follow me on Twitch, where I'm trying to build a nice and welcoming community.") }}
 
 <footer class="bg-black ph3 pv4 white">
-	<div class="mw7 center pt3">
-		<div class="flex-ns justify-between">
-			<div>
-				<ul class="mhn2">
-{{ partial "social-icon" (dict "link" "https://twitch.tv/kwertan" "svg" "icons-twitch") }}
-				</ul>
-			</div>
-
-		</div>
-	</div>
-
+    <div class="mw7 center pt3">
+        <div class="flex-ns justify-between">
+            <div>
+                <ul class="mhn2">
+                    <li class="dib ph2 raise">
+                        <a href="https://twitch.tv/kwertan" class="link bg-white black db relative br-100 pa2">
+                            <img src="/img/icons-twitch.svg" width="16px" height="16px" class="db">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
 
 {{ partial "blog" . }}
