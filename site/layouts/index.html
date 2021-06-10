@@ -2,8 +2,11 @@
 
 {{ partial "jumbotron" (dict "title" "palatable.tech" "subtitle" "Personal page/blog of Petr Palata") }}
 
-{{ partial "short-text" (dict "heading" "About Me" "text" "Hey, I'm Petr, an iOS developer with 7+ years of commercial experience. Welcome to my page! If you enjoyed my content, you can watch or follow me on twitch, where I'm trying to build a nice and welcoming community.") }}
+{{ partial "short-text" (dict "heading" "About Me" "text" "Hey, I'm Petr, an iOS developer with 7+ years of commercial experience. Welcome to my page! If you enjoyed my content, you can watch or follow me on Twitch, where I'm trying to build a nice and welcoming community.") }}
+
+{{ partial "social-icon" (dict "link" "https://twitch.tv/kwertan" "svg" "icons-twitch") }}
 
 {{ partial "blog" . }}
+
 
 {{ end }}
