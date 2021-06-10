@@ -1,12 +1,8 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron" (dict "title" "palatable.tech" "subtitle" "Personal page/blog of Petr Palata") }}
 
-{{ partial "short-text" .Params.blurb}}
-
-{{ partial "2-up" .Params }}
-
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "short-text" (dict "heading" "About Me" "text" "Hey, I'm Petr, an iOS developer with 7+ years of commercial experience. Welcome to my page! If you enjoyed my content, you can watch or follow me on twitch, where I'm trying to build a nice and welcoming community.") }}
 
 {{ partial "blog" . }}
 
