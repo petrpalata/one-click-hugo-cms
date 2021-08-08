@@ -1,6 +1,6 @@
 ---
 title: Sabbatical
-date: 2021-08-08:22:57.217Z
+date: 2021-08-08T22:57:22.217Z
 description: I have decided to try going on a Sabbatical
   so that I can focus on stuff that interests me outside of
   my current employment at Wandera. This post is meant to be
