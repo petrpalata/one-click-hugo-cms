@@ -2,9 +2,9 @@
 title: Sabbatical
 date: 2021-08-08:22:57.217Z
 description: I have decided to try going on a Sabbatical
-so that I can focus on stuff that interests me outside of
-my current employment at Wandera. This post is meant to be
-a brain dump summarising my goals and fears.
+  so that I can focus on stuff that interests me outside of
+  my current employment at Wandera. This post is meant to be
+  a brain dump summarising my goals and fears.
 ---
 # Sabbatical
 Being employed had its perks and I'm grateful for the opportunities I had been given at Wandera (now sold to Jamf) but because I didn't want to commit to the management track unconditionally, there wasn't a lot of personal development going on in the last year or more.
